@@ -1,0 +1,104 @@
+-- Assignment (Questions with Answers)
+
+1.   What is a parameter? 
+Ans- A parameter is a value learned by the machine
+    learning model during training (example: weights and bias).
+
+2.  What is correlation? 
+Ans-Correlation is a measure that shows how
+    strongly two variables are related.
+
+3.  What does negative correlation mean? 
+Ans-Negative correlation means when
+    one variable increases, the other decreases.
+
+4.  Define Machine Learning. 
+Ans-What are the main components in Machine
+    Learning? Machine Learning is a method that allows computers to
+    learn patterns from data and make decisions. Main components: Data,
+    Model, Loss Function, Optimizer.
+
+5.  How does loss value help in determining whether the model is good or
+    not? 
+Ans- Low loss value means the model is good. High loss value means
+    the model is performing poorly.
+
+6.  What are continuous and categorical variables?
+Ans-   Continuous variables:
+    Numerical values that can be measured. Categorical variables: Values
+    that represent categories.
+
+7.  How do we handle categorical variables in Machine Learning? What are
+    the common techniques? 
+Ans- Label Encoding, One-Hot Encoding, Ordinal
+    Encoding, Binary Encoding.
+
+8.  What do you mean by training and testing a dataset?
+Ans-    Training dataset
+    is used to teach the model. Testing dataset is used to check its
+    performance.
+
+9.  What is sklearn.preprocessing? 
+Ans-   It is a module in scikit-learn used
+    for scaling, encoding, and transforming data.
+
+10. What is a Test set? 
+Ans-    A test set is used to evaluate the final
+    performance of the model on unseen data.
+
+11. How do we split data for model fitting (training and testing) in
+    Python? 
+Ans-   Using train_test_split() function.
+
+12. How do you approach a Machine Learning problem?
+Ans-    Understand → Collect
+    → Clean → EDA → Feature Engineering → Model Selection → Train →
+    Evaluate.
+
+13. Why do we have to perform EDA before fitting a model to the data?
+Ans- EDA helps detect missing values, outliers, correlations, and data
+    patterns.
+
+14. What is correlation?
+Ans- Measures how two variables move together.
+
+15. What does negative correlation mean?
+Ans- When one variable goes up, the
+    other goes down.
+
+16. How can you find correlation between variables in Python? 
+Ans-    Using
+    df.corr()
+
+17. What is causation? 
+Ans-   Explain difference between correlation and
+    causation. Causation means one variable directly affects another.
+    Correlation means variables are related but do not cause each other.
+
+18. What is an Optimizer? Types? 
+Ans- Optimizer updates model parameters to
+    reduce loss. Types: Gradient Descent, SGD, Adam, RMSprop.
+
+19. What is sklearn.linear_model?
+Ans-    Module containing linear models like
+    Linear Regression and Logistic Regression.
+
+20. What does model.fit() do? 
+Ans-    Trains the model using X and y.
+
+21. What does model.predict() do? 
+Ans-     Predicts output using X_test.
+
+22. Continuous and categorical variables? 
+Ans- (Repeated) Same definitions.
+
+23. What is feature scaling? 
+Ans- Standardizing numerical features to similar
+    ranges.
+
+24. How do we perform scaling in Python? 
+Ans- Using StandardScaler or
+    MinMaxScaler.
+
+25. Explain data encoding. 
+Ans- Converting categorical values to numerical.
